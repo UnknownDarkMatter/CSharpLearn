@@ -10,6 +10,14 @@ namespace CSharpLearn._04_StructRefOut
     {
         public void Execute()
         {
+            //String
+            var value = "nonmodifié";
+            EssaiModificationStringSansRef(value);
+            Console.WriteLine($"EssaiModificationStringSansRef {value}");
+
+            EssaiModificationStringAvecRef(ref value);
+            Console.WriteLine($"EssaiModificationStringAvecRef {value}");
+
             var monnaie1 = new Monnaie();
             monnaie1.Valeur = 200;
             EssaiModificationMonnaieSansRef(monnaie1);
@@ -35,6 +43,14 @@ namespace CSharpLearn._04_StructRefOut
             datetime = DateTime.MinValue;
             GetDate(out datetime);
             Console.WriteLine($"GetDate : {datetime}");
+        }
+        public void EssaiModificationStringSansRef(string value)
+        {
+            value = "modified";
+        }
+        public void EssaiModificationStringAvecRef(ref string value)
+        {
+            value = "modified";
         }
 
         public void EssaiModificationMonnaieSansRef(Monnaie monnaie)
