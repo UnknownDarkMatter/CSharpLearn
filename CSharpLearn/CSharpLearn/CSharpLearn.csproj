@@ -61,6 +61,9 @@
     <Compile Include="04_Generics\SpecialiteNem.cs" />
     <Compile Include="04_Generics\SpecialiteSoupe.cs" />
     <Compile Include="04_Generics\SpecialitePoulet.cs" />
+    <Compile Include="04_StructRefOut\ExempleService.cs" />
+    <Compile Include="04_StructRefOut\Monnaie.cs" />
+    <Compile Include="04_StructRefOut\Employe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,10 +71,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="04_Struct\" />
     <Folder Include="04_TryCatch\" />
     <Folder Include="05_Types\" />
-    <Folder Include="06_RefOut\" />
     <Folder Include="08_continue_break\" />
     <Folder Include="09_LinqPipeline\" />
     <Folder Include="10_DelegateLambda\" />
