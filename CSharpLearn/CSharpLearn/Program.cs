@@ -14,6 +14,7 @@ namespace CSharpLearn
             //Heritage
             var heritageDemo = new HeritageDemo();
             heritageDemo.Execute();
+            Console.ReadLine();
         }
     }
 }

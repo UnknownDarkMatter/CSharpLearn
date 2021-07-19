@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01_HeritageInterfacesProtected\Chat.cs" />
+    <Compile Include="01_HeritageInterfacesProtected\Chien.cs" />
+    <Compile Include="01_HeritageInterfacesProtected\Chouette.cs" />
     <Compile Include="01_HeritageInterfacesProtected\HeritageDemo.cs" />
+    <Compile Include="01_HeritageInterfacesProtected\IAnimals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
