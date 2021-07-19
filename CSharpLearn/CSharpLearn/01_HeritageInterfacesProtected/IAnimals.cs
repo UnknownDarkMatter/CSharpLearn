@@ -9,6 +9,8 @@ namespace CSharpLearn._01_HeritageInterfacesProtected
        
     public interface IAnimals
     {
-        string Parler();
+        string Parler ();
+        string Nom { get; set; }
+        
     }
 }

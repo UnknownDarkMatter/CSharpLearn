@@ -8,9 +8,16 @@ namespace CSharpLearn._01_HeritageInterfacesProtected
 {
     class Chat : IAnimals
     {
+        public string Nom { get; set; }
+        public Chat(string nom) 
+        {
+            Nom = nom;
+        }
         public string Parler()
         {
-            return "Miaw";
+            return "Miaw, je suis " + Nom;
         }
+
+
     }
 }
