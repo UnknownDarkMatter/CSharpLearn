@@ -25,11 +25,19 @@ namespace CSharpLearn._01_HeritageInterfacesProtected
             Console.WriteLine($"Le jouet du chiot est {monChiot.Jouet}");
 
             Console.WriteLine($"Le collier du chiot est en {monChiot.Collier}");
-            // monChiot.Collier = "Tissu";
+            monChiot.Collier = "Tissu";
             Console.WriteLine($"Le collier du chiot est en {monChiot.Collier}");
 
             Console.WriteLine($"moi c'est {monChiot.Nom} et mon collier est en {monChiot.Collier}");
 
+            List<IAnimals> animals = new List<IAnimals>()
+            {
+                chien, chat
+            };
+            foreach(var animal in animals)
+            {
+                Console.WriteLine($"Le foreach a lu l'animal {animal.Nom}");
+            }
         }
     }
 }
