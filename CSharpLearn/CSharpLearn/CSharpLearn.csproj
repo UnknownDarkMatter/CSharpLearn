@@ -49,5 +49,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01_HeritageInterfaces\" />
+    <Folder Include="02_Base\" />
+    <Folder Include="03_Virtual\" />
+    <Folder Include="04_Struct\" />
+    <Folder Include="04_TryCatch\" />
+    <Folder Include="05_Types\" />
+    <Folder Include="06_RefOut\" />
+    <Folder Include="08_continue_break\" />
+    <Folder Include="09_LinqPipeline\" />
+    <Folder Include="10_DelegateLambda\" />
+    <Folder Include="20_AsyncAwait\" />
+    <Folder Include="21_Lock\" />
+    <Folder Include="22_Encodage\" />
+    <Folder Include="23_ReflexionGetType\" />
+    <Folder Include="24_RegexDemo\" />
+    <Folder Include="25_Serialization\" />
+    <Folder Include="26_Equatable\" />
+    <Folder Include="27_Comparable\" />
+    <Folder Include="28_Enumerable\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
