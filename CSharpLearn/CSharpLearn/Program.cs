@@ -22,9 +22,13 @@ namespace CSharpLearn
             //var exempleService4 = new CSharpLearn._04_Generics.ExempleService ();
             //exempleService4.Execute();
 
-            var exempleService5 = new CSharpLearn._04_StructRefOut.ExempleService();
+            //var exempleService5 = new CSharpLearn._04_StructRefOut.ExempleService();
+            //exempleService5.Execute();
+
+            var exempleService5 = new CSharpLearn._04_TryCatch.ExempleService();
             exempleService5.Execute();
 
+    
             Console.ReadLine();
         }
     }

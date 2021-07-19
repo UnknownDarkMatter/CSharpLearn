@@ -64,6 +64,7 @@
     <Compile Include="04_StructRefOut\ExempleService.cs" />
     <Compile Include="04_StructRefOut\Monnaie.cs" />
     <Compile Include="04_StructRefOut\Employe.cs" />
+    <Compile Include="04_TryCatch\ExempleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,7 +72,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="04_TryCatch\" />
+    <Folder Include="05_DisposeUsing\" />
     <Folder Include="05_Types\" />
     <Folder Include="08_continue_break\" />
     <Folder Include="09_LinqPipeline\" />
