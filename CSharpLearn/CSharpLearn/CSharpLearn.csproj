@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="01_HeritageInterfaces\" />
+    <Folder Include="01_HeritageInterfacesProtected\" />
     <Folder Include="02_Base\" />
     <Folder Include="03_Virtual\" />
     <Folder Include="04_Struct\" />
