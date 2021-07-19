@@ -54,6 +54,13 @@
     <Compile Include="03_Virtual\Chiot.cs" />
     <Compile Include="03_Virtual\Chien.cs" />
     <Compile Include="03_Virtual\ExempleService.cs" />
+    <Compile Include="04_Generics\ExempleService.cs" />
+    <Compile Include="04_Generics\ISpecialiteAsiatique.cs" />
+    <Compile Include="04_Generics\ISpecialiteFrench.cs" />
+    <Compile Include="04_Generics\RestaurantGeneric.cs" />
+    <Compile Include="04_Generics\SpecialiteNem.cs" />
+    <Compile Include="04_Generics\SpecialiteSoupe.cs" />
+    <Compile Include="04_Generics\SpecialitePoulet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,7 +68,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="04_Generics\" />
     <Folder Include="04_Struct\" />
     <Folder Include="04_TryCatch\" />
     <Folder Include="05_Types\" />
