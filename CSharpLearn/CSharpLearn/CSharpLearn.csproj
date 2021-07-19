@@ -61,6 +61,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="04_Generics\" />
     <Folder Include="04_Struct\" />
     <Folder Include="04_TryCatch\" />
     <Folder Include="05_Types\" />
