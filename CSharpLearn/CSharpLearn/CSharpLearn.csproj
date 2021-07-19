@@ -51,6 +51,9 @@
     <Compile Include="01_HeritageInterfacesProtected\Chiot.cs" />
     <Compile Include="01_HeritageInterfacesProtected\HeritageDemo.cs" />
     <Compile Include="01_HeritageInterfacesProtected\IAnimals.cs" />
+    <Compile Include="03_Virtual\Chiot.cs" />
+    <Compile Include="03_Virtual\Chien.cs" />
+    <Compile Include="03_Virtual\ExempleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,7 +61,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="03_Virtual\" />
     <Folder Include="04_Struct\" />
     <Folder Include="04_TryCatch\" />
     <Folder Include="05_Types\" />

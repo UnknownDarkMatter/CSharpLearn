@@ -1,4 +1,5 @@
 ﻿using CSharpLearn._01_HeritageInterfacesProtected;
+using CSharpLearn._03_Virtual;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,15 @@ namespace CSharpLearn
     {
         static void Main(string[] args)
         {
-            //Heritage
-            var heritageDemo = new HeritageDemo();
-            heritageDemo.Execute();
+            Console.WriteLine("#### Heritage ####");
+            var heritageDemo1 = new HeritageDemo();
+            var heritageDemo2 = new HeritageDemo();
+            heritageDemo2.Execute();
+
+            Console.WriteLine("#### virtual/overide + static ####");
+            ExempleService.Execute();
+
+
             Console.ReadLine();
         }
     }
