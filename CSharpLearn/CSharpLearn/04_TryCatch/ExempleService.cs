@@ -9,6 +9,7 @@ namespace CSharpLearn._04_TryCatch
     class ExempleService
     {
         public void Execute()
+            // demo try and catch
         {
             Console.WriteLine("Before try catch 1/2");
             try
