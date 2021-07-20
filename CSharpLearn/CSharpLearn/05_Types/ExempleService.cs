@@ -50,7 +50,13 @@ namespace CSharpLearn._05_Types
             monDecimal = Convert.ToDecimal(value, new System.Globalization.CultureInfo("fr-FR"));
             Console.WriteLine($" fr-FR string convertit {monDecimal}");
 
-            
+            var personne = new
+            {
+                Nom = "toto",
+                Age = 21
+            };
+            Console.WriteLine($"Nom : {personne.Nom}, age : {personne.Age}");
+
         }
     }
 }
