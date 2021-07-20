@@ -28,10 +28,13 @@ namespace CSharpLearn
             //var exempleService5 = new CSharpLearn._04_TryCatch.ExempleService();
             //exempleService5.Execute();
 
-            var exempleService6 = new CSharpLearn._05_DisposeUsing.ExempleService();
-            exempleService6.Execute();
+            //var exempleService6 = new CSharpLearn._05_DisposeUsing.ExempleService();
+            //exempleService6.Execute();
 
-            
+            var exempleService7 = new CSharpLearn._05_Types.ExempleService();
+            exempleService7.Execute();
+
+
 
 
 
