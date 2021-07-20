@@ -69,6 +69,7 @@
     <Compile Include="05_DisposeUsing\MonDisposableComponent.cs" />
     <Compile Include="05_Types\ExempleService.cs" />
     <Compile Include="08_continue_break\ExempleService.cs" />
+    <Compile Include="08_Switch\ExempleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

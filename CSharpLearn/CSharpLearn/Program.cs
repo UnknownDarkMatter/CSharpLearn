@@ -34,10 +34,13 @@ namespace CSharpLearn
             //var exempleService7 = new CSharpLearn._05_Types.ExempleService();
             //exempleService7.Execute();
 
-            var exempleService8 = new CSharpLearn._08_continue_break.ExempleService();
+            //var exempleService8 = new CSharpLearn._08_continue_break.ExempleService();
+            //exempleService8.Execute();
+
+            var exempleService8 = new CSharpLearn._08_Switch.ExempleService();
             exempleService8.Execute();
 
-           
+
 
 
             Console.ReadLine();
