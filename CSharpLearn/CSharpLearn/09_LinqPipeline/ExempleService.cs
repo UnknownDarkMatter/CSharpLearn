@@ -67,7 +67,23 @@ namespace CSharpLearn._09_LinqPipeline
                         select string.Join(", ", (menuGrouped.Select(m => menuGrouped.Key.ToString() + " - " + m)));
             Console.WriteLine(string.Join(Environment.NewLine, query));
 
+            //usage le plus courant
+            maListe = new List<Tuple<string, int>>()
+            {
+                new Tuple<string, int>("Riz", 2),
+                new Tuple<string, int>("Harissa", 2),
+                new Tuple<string, int>("poisson", 2),
+                new Tuple<string, int>("pizza", 4),
+                new Tuple<string, int>("fromage", 5),
+                new Tuple<string, int>("Poulet", 6),
+            };
 
+            var specialite = maListe
+                .OrderByDescending(m => m.Item2)
+                .Where(m => m.Item2 < 6)
+                .FirstOrDefault()
+                .Item1;
+            Console.WriteLine($"Spécialité : {specialite}");
         }
     }
 }
