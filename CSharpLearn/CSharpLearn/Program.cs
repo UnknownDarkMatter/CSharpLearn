@@ -11,9 +11,15 @@ namespace CSharpLearn
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("#### Heritage ####");
-            var heritageDemo1 = new HeritageDemo();
-            var heritageDemo2 = new HeritageDemo();
+
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("Bienvenue dans le C# !");
+            Console.ResetColor();
+
+            //Console.WriteLine("#### Heritage ####");
+            //var heritageDemo1 = new HeritageDemo();
+            //var heritageDemo2 = new HeritageDemo();
             //heritageDemo2.Execute();
 
             //Console.WriteLine("#### virtual/overide + static ####");
@@ -40,8 +46,17 @@ namespace CSharpLearn
             //var exempleService8 = new CSharpLearn._08_Switch.ExempleService();
             //exempleService8.Execute();
 
-            var exempleService9 = new CSharpLearn._09_LinqPipeline.ExempleService();
-            exempleService9.Execute();
+            //var exempleService9 = new CSharpLearn._09_LinqPipeline.ExempleService();
+            //exempleService9.Execute();
+
+            var exempleService = new _23_ReflexionGetType.ExempleService();
+            exempleService.Execute();
+
+
+            //erreur de runtime lors de l'execution de l'assembly
+            //object toto = 1;
+            //object titi = "2";
+            //int result = (int)toto + (int)titi;
 
 
 
