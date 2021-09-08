@@ -71,9 +71,12 @@
     <Compile Include="08_continue_break\ExempleService.cs" />
     <Compile Include="08_Switch\ExempleService.cs" />
     <Compile Include="09_LinqPipeline\ExempleService.cs" />
+    <Compile Include="20_AsyncAwait\ExempleService.cs" />
+    <Compile Include="21_Lock\ExempleService.cs" />
     <Compile Include="23_ReflexionGetType\Calculette.cs" />
     <Compile Include="23_ReflexionGetType\ExempleService.cs" />
     <Compile Include="23_ReflexionGetType\Input.cs" />
+    <Compile Include="29_Bitwise\ExempleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -81,9 +84,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="08_Dictionaries\" />
     <Folder Include="10_DelegateLambda\" />
-    <Folder Include="20_AsyncAwait\" />
-    <Folder Include="21_Lock\" />
     <Folder Include="22_Encodage\" />
     <Folder Include="24_RegexDemo\" />
     <Folder Include="25_Serialization\" />

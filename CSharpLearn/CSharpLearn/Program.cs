@@ -49,8 +49,8 @@ namespace CSharpLearn
             //var exempleService9 = new CSharpLearn._09_LinqPipeline.ExempleService();
             //exempleService9.Execute();
 
-            var exempleService = new _23_ReflexionGetType.ExempleService();
-            exempleService.Execute();
+            //var exempleService = new _23_ReflexionGetType.ExempleService();
+            //exempleService.Execute();
 
 
             //erreur de runtime lors de l'execution de l'assembly
@@ -58,7 +58,15 @@ namespace CSharpLearn
             //object titi = "2";
             //int result = (int)toto + (int)titi;
 
+            //var exempleService = new _20_AsyncAwait.ExempleService();
+            //exempleService.Execute();
 
+            var exempleService = new _21_Lock.ExempleService();
+            exempleService.Execute();
+
+            
+            //var exempleService = new _29_Bitwise.ExempleService();
+            //exempleService.Execute();
 
             Console.ReadLine();
         }

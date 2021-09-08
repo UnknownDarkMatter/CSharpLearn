@@ -66,7 +66,7 @@ namespace CSharpLearn._09_LinqPipeline
                         group menu.Item1 by menu.Item2 into menuGrouped
                         select string.Join(", ", (menuGrouped.Select(m => menuGrouped.Key.ToString() + " - " + m)));
             Console.WriteLine(string.Join(Environment.NewLine, query));
-
+             
             //usage le plus courant
             maListe = new List<Tuple<string, int>>()
             {
