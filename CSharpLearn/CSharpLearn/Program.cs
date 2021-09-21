@@ -69,8 +69,8 @@ namespace CSharpLearn
             //exempleService.Execute(new _30_Delegate.ExampleService.MonActionDelegate(exempleService.MonAction));
             //exempleService.Execute(new _30_Delegate.ExampleService.MonActionDelegate((monArg) => { Console.WriteLine($"This is a Lambda delegate with arg {monArg}"); }));
 
-            //var exempleService = new _31_YieldReturn.ExempleService();
-            //exempleService.Execute();
+            var exempleService = new _31_YieldReturn.ExempleService();
+            exempleService.Execute();
 
             Console.ReadLine();
         }
