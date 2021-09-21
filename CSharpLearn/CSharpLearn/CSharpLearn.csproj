@@ -72,12 +72,14 @@
     <Compile Include="08_Switch\ExempleService.cs" />
     <Compile Include="09_LinqPipeline\ExempleService.cs" />
     <Compile Include="20_AsyncAwait\ExempleService.cs" />
+    <Compile Include="20_BackgroundWorker\ExempleService.cs" />
     <Compile Include="21_Lock\ExempleService.cs" />
     <Compile Include="23_ReflexionGetType\Calculette.cs" />
     <Compile Include="23_ReflexionGetType\ExempleService.cs" />
     <Compile Include="23_ReflexionGetType\Input.cs" />
     <Compile Include="29_Bitwise\ExempleService.cs" />
     <Compile Include="30_Delegate\ExampleService.cs" />
+    <Compile Include="31_YieldReturn\ExempleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

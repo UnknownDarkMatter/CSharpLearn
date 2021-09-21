@@ -10,6 +10,11 @@ namespace CSharpLearn._04_StructRefOut
     {
         public void Execute()
         {
+            //var maDate = DateTime.Now;
+            //maDate = new DateTime(2021, 09, 21, 10, 59, 23);
+            //maDate = maDate.AddDays(1);
+            //maDate = maDate;
+
 
             //String
             var value = "nonmodifié";
