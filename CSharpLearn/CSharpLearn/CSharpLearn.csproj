@@ -88,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="08_Dictionaries\" />
-    <Folder Include="10_DelegateLambda\" />
     <Folder Include="22_Encodage\" />
     <Folder Include="24_RegexDemo\" />
     <Folder Include="25_Serialization\" />
