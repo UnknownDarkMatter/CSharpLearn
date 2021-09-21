@@ -10,6 +10,7 @@ namespace CSharpLearn._04_StructRefOut
     {
         public void Execute()
         {
+
             //String
             var value = "nonmodifié";
             EssaiModificationStringSansRef(value);
@@ -18,6 +19,7 @@ namespace CSharpLearn._04_StructRefOut
             EssaiModificationStringAvecRef(ref value);
             Console.WriteLine($"EssaiModificationStringAvecRef {value}");
 
+
             var monnaie1 = new Monnaie();
             monnaie1.Valeur = 200;
             EssaiModificationMonnaieSansRef(monnaie1);
@@ -25,6 +27,7 @@ namespace CSharpLearn._04_StructRefOut
 
             EssaiModificationMonnaieAvecRef(ref monnaie1);
             Console.WriteLine($"EssaiModificationMonnaieAvecRef : {monnaie1.Valeur}");
+
 
 
             var datetime = DateTime.Now;

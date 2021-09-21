@@ -77,6 +77,7 @@
     <Compile Include="23_ReflexionGetType\ExempleService.cs" />
     <Compile Include="23_ReflexionGetType\Input.cs" />
     <Compile Include="29_Bitwise\ExempleService.cs" />
+    <Compile Include="30_Delegate\ExampleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

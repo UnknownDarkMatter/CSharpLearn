@@ -10,7 +10,17 @@ namespace CSharpLearn._05_DisposeUsing
     {
         public void Dispose()
         {
-            Console.WriteLine("Dispos a été appellé ");
+            Console.WriteLine("Dispose a été appellé ");
+        }
+
+        public MonDisposableComponent()
+        {
+            Console.WriteLine("Le constructeur a été appellé");
+        }
+
+        ~MonDisposableComponent()
+        {
+            Console.WriteLine("Le desctucteur a été appellé");
         }
         public void Parler()
         {

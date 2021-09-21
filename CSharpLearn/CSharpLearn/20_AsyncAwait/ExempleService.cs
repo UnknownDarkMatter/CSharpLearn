@@ -18,6 +18,7 @@ namespace CSharpLearn._20_AsyncAwait
             await ExecureCodeSync();
 
             await ExecureCodeAsync();
+
         }
 
         private static async Task ExecureCodeSync()

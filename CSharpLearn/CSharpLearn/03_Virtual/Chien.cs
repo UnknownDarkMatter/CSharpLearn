@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpLearn._03_Virtual
 {
-    class Chien
+    public class Chien
     {
         public virtual string Aboyer()
         {

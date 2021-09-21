@@ -18,12 +18,12 @@ namespace CSharpLearn._08_continue_break
 
             foreach (var tuple in maListe)
             {
-                Console.WriteLine($"{tuple.Item1} est: {tuple.Item2.ToString("yyyy-MM-dd")}");
+                Console.WriteLine($"Premier foreach : {tuple.Item1} est: {tuple.Item2.ToString("yyyy-MM-dd")}");
             }
-            for (int i = 0; i< maListe.Count;i++)
+            for (int i = 0; i < maListe.Count;i++)
             {
                 var tuple = maListe[i];
-                Console.WriteLine($"{tuple.Item1} est: {tuple.Item2.ToString("yyyy-MM-dd")}");
+                Console.WriteLine($"Second forEach : {tuple.Item1} est: {tuple.Item2.ToString("yyyy-MM-dd")}");
             }
         }
     }
