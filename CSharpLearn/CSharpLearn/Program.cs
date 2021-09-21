@@ -21,6 +21,8 @@ namespace CSharpLearn
             Console.WriteLine("Bienvenue dans le C# !");
             Console.ResetColor();
 
+            Console.WriteLine("Décommentez du code pour voir ce qu'il fait");
+
             //CSharpLearn._03_Virtual.ExempleService.Execute();
 
             //var exempleService4 = new CSharpLearn._04_Generics.ExempleService ();
@@ -50,17 +52,11 @@ namespace CSharpLearn
             //var exempleService = new _23_ReflexionGetType.ExempleService();
             //exempleService.Execute();
 
-
-            //erreur de runtime lors de l'execution de l'assembly
-            //object toto = 1;
-            //object titi = "2";
-            //int result = (int)toto + (int)titi;
-
             //var exempleService = new _20_AsyncAwait.ExempleService();
             //await exempleService.Execute();
 
-            var exempleService = new _20_BackgroundWorker.ExempleService();
-            exempleService.Execute();
+            //var exempleService = new _20_BackgroundWorker.ExempleService();
+            //exempleService.Execute();
 
             //var exempleService = new _21_Lock.ExempleService();
             //exempleService.Execute();
