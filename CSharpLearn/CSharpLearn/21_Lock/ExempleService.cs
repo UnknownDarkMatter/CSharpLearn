@@ -31,6 +31,7 @@ namespace CSharpLearn._21_Lock
 
         private static void BackgroundTaskSync(object name)
         {
+            //if we reinstanciate _lockObject the lock does not work : _lockObject = new object();
             lock (_lockObject)
             {
                 Console.WriteLine($"{name} : Starting thread ...");
